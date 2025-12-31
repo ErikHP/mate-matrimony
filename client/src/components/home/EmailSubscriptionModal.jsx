@@ -24,7 +24,8 @@ export function EmailSubscriptionModal() {
     e.preventDefault();
     if (email) {
       try {
-        const response = await fetch("/api/subscribe", {
+        const apiUrl = import.meta.env.VITE_API_URL || "";
+        const response = await fetch(`${apiUrl}/api/subscribe`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ email })

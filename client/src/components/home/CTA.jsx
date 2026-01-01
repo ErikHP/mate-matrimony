@@ -1,7 +1,34 @@
 import { Button } from "@/components/ui/button";
 import playStoreLogoImage from "@assets/google-play_1766684671011.png";
 import appStoreLogoImage from "@assets/app-store_1766684674097.png";
+import facebookIcon from "@assets/facebook_1766684978176.png";
+import tiktokIcon from "@assets/tiktok_1766449687355.png";
+import instagramIcon from "@assets/instagram_1766449679563.png";
+import youtubeIcon from "@assets/youtube_1766449193328.png";
 import { motion } from "framer-motion";
+
+const socialLinks = [
+  {
+    name: "Facebook",
+    icon: facebookIcon,
+    url: "https://www.facebook.com/share/17qew57xXa/?mibextid=wwXIfr"
+  },
+  {
+    name: "TikTok",
+    icon: tiktokIcon,
+    url: "https://www.tiktok.com/@mate.matrimony?_r=1&_t=ZT-92KQ904Okpx"
+  },
+  {
+    name: "Instagram",
+    icon: instagramIcon,
+    url: "https://www.instagram.com/matematrimony_usa?igsh=ZG04Z28wd3d2emIw&utm_source=qr"
+  },
+  {
+    name: "YouTube",
+    icon: youtubeIcon,
+    url: "https://youtube.com/@matematrimony?si=u8tYgk12J6RuV0I2"
+  }
+];
 
 export function CTA() {
   return (
@@ -16,10 +43,25 @@ export function CTA() {
            <p className="text-lg text-muted-foreground mb-8 relative z-10">Join millions of singles finding their perfect match.</p>
            
            <div className="mb-8 p-6 bg-primary/5 rounded-2xl relative z-10">
-             <p className="text-sm md:text-base text-foreground mb-4 font-semibold">Get in touch with Us</p>
+             <p className="text-sm md:text-base text-foreground mb-4 font-semibold">Get in touch with us</p>
              <div className="space-y-2 text-sm md:text-base text-muted-foreground">
                <p><a href="tel:+15129131811" className="text-primary hover:underline">512-913-1811</a> (Call or Text)</p>
                <p><a href="mailto:matematrimonyusa@gmail.com" className="text-primary hover:underline">matematrimonyusa@gmail.com</a></p>
+             </div>
+             <div className="flex justify-center gap-4 mt-4">
+               {socialLinks.map((link) => (
+                 <a
+                   key={link.name}
+                   href={link.url}
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary transition-all"
+                   data-testid={`link-cta-social-${link.name.toLowerCase()}`}
+                   aria-label={`Follow us on ${link.name}`}
+                 >
+                   <img src={link.icon} alt={link.name} className="w-6 h-6 object-contain" />
+                 </a>
+               ))}
              </div>
            </div>
            

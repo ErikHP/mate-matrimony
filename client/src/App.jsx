@@ -10,6 +10,7 @@ import About from "@/pages/about";
 import CookiePolicy from "@/pages/cookie-policy";
 import TermsOfService from "@/pages/terms-of-service";
 import PrivacyPolicy from "@/pages/privacy-policy";
+import SafetyTips from "@/pages/safety-tips";
 
 function Router() {
   return (
@@ -20,6 +21,7 @@ function Router() {
       <Route path="/cookie-policy" component={CookiePolicy} />
       <Route path="/terms-of-service" component={TermsOfService} />
       <Route path="/privacy-policy" component={PrivacyPolicy} />
+      <Route path="/safety-tips" component={SafetyTips} />
       <Route component={NotFound} />
     </Switch>
   );

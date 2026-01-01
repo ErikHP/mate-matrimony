@@ -76,7 +76,7 @@ export function Footer() {
               <li><a href="/privacy-policy" className="hover:text-white hover:underline transition-colors" data-testid="link-footer-privacy">Privacy Policy</a></li>
               <li><a href="/terms-of-service" className="hover:text-white hover:underline transition-colors" data-testid="link-footer-terms">Terms of Service</a></li>
               <li><a href="/cookie-policy" className="hover:text-white hover:underline transition-colors" data-testid="link-footer-cookies">Cookie Policy</a></li>
-              <li><a href="#" className="hover:text-white hover:underline transition-colors" data-testid="link-footer-safety">Safety Tips</a></li>
+              <li><a href="/safety-tips" className="hover:text-white hover:underline transition-colors" data-testid="link-footer-safety">Safety Tips</a></li>
             </ul>
           </div>
           

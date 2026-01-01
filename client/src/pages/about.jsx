@@ -135,19 +135,15 @@ export default function About() {
                     <h3 className="text-xl font-bold text-primary mb-3">Live Events</h3>
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
-                        <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                        Our live events are hosted in various cities and are highly anticipated.
+                        <Calendar className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                        <span>Our live events are hosted in various cities and are highly anticipated. Tickets start at <strong>$25</strong> and must be purchased separately online or at the door.</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                        Tickets start at <strong>$25</strong> and must be purchased separately online or at the door.
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                        <Calendar className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                         Members get early access, discounted tickets, priority registration, preferred seating, and exclusive merchandise.
                       </li>
                       <li className="flex items-start gap-2">
-                        <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                        <Calendar className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                         Parents/guardians/relatives may attend events only with their children—not on their behalf.
                       </li>
                     </ul>
@@ -170,11 +166,11 @@ export default function About() {
                     <h3 className="text-xl font-bold text-primary mb-3">Bios and Photos</h3>
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
-                        <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                        <Users className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                         Members must submit their bio and pictures within <strong>48 hours</strong> of joining.
                       </li>
                       <li className="flex items-start gap-2">
-                        <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                        <Users className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                         Our data shows that profiles with pictures receive a <strong>67% higher response rate</strong>.
                       </li>
                     </ul>
@@ -197,11 +193,11 @@ export default function About() {
                     <h3 className="text-xl font-bold text-primary mb-3">Inclusivity</h3>
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
-                        <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                        <Heart className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                         We welcome individuals of all ages, ethnicities, and backgrounds.
                       </li>
                       <li className="flex items-start gap-2">
-                        <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                        <Heart className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                         This includes those with special needs, converts/reverts, single parents, veterans, divorcees, and widows.
                       </li>
                     </ul>
@@ -244,11 +240,11 @@ export default function About() {
                     <h3 className="text-xl font-bold text-primary mb-3">Profile Picture and Name</h3>
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
-                        <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                        <Users className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                         Members must provide a profile picture and have at least their first name visible to all members.
                       </li>
                       <li className="flex items-start gap-2">
-                        <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                        <Users className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                         On platforms like our app, WhatsApp, or Facebook, you must upload a real photo or an AI-generated likeness before gaining access.
                       </li>
                     </ul>

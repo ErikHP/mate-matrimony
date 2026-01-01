@@ -1,4 +1,4 @@
-import { Heart, Shield, Users, Star } from "lucide-react";
+import { Heart, Shield, Users, Globe } from "lucide-react";
 
 export function Stats() {
   return (
@@ -6,10 +6,10 @@ export function Stats() {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { number: "2M+", label: "Active Members", icon: Users },
-            { number: "50k+", label: "Success Stories", icon: Heart },
+            { number: "25K+", label: "Active Members", icon: Users },
+            { number: "15K+", label: "Success Stories", icon: Heart },
             { number: "100%", label: "Verified Profiles", icon: Shield },
-            { number: "4.8", label: "App Rating", icon: Star },
+            { number: "50%", label: "Racially Diverse", icon: Globe },
           ].map((stat, i) => (
             <div
               key={i}

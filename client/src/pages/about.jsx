@@ -136,7 +136,11 @@ export default function About() {
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
                         <Calendar className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                        <span>Our live events are hosted in various cities and are highly anticipated. Tickets start at <strong>$25</strong> and must be purchased separately online or at the door.</span>
+                        <span>Our live events are hosted in various cities and are highly anticipated.</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <Calendar className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                        <span>Tickets start at <strong>$25</strong> and must be purchased separately online or at the door.</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <Calendar className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />

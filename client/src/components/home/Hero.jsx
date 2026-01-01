@@ -43,7 +43,7 @@ export function Hero() {
         >
           <motion.div variants={fadeIn} className="flex items-center gap-2 mb-6 font-medium tracking-wider uppercase text-xs md:text-sm lg:text-xl justify-center px-4 py-3 md:px-6 md:py-4 rounded-full bg-black/30 backdrop-blur-md">
             <span className="w-8 h-[2px] bg-white md:w-12 lg:w-16"></span>
-            <span>Trusted Proven Secure.</span>
+            <span>Trusted • Proven • Secure</span>
             <span className="w-8 h-[2px] bg-white md:w-12 lg:w-16"></span>
           </motion.div>
           

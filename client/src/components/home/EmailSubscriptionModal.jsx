@@ -13,6 +13,9 @@ export function EmailSubscriptionModal() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   useEffect(() => {
+    if (window.location.hash) {
+      return;
+    }
     const timer = setTimeout(() => {
       setIsOpen(true);
     }, 3000);

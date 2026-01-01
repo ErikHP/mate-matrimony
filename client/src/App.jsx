@@ -8,6 +8,7 @@ import Home from "@/pages/home";
 import Careers from "@/pages/careers";
 import About from "@/pages/about";
 import CookiePolicy from "@/pages/cookie-policy";
+import TermsOfService from "@/pages/terms-of-service";
 
 function Router() {
   return (
@@ -16,6 +17,7 @@ function Router() {
       <Route path="/careers" component={Careers} />
       <Route path="/about" component={About} />
       <Route path="/cookie-policy" component={CookiePolicy} />
+      <Route path="/terms-of-service" component={TermsOfService} />
       <Route component={NotFound} />
     </Switch>
   );

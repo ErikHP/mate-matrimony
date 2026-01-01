@@ -74,7 +74,7 @@ export function Footer() {
             <h4 className="text-white font-bold mb-6" data-testid="text-footer-legal">Legal</h4>
             <ul className="space-y-4 text-sm text-white/90">
               <li><a href="#" className="hover:text-white hover:underline transition-colors" data-testid="link-footer-privacy">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-white hover:underline transition-colors" data-testid="link-footer-terms">Terms of Service</a></li>
+              <li><a href="/terms-of-service" className="hover:text-white hover:underline transition-colors" data-testid="link-footer-terms">Terms of Service</a></li>
               <li><a href="/cookie-policy" className="hover:text-white hover:underline transition-colors" data-testid="link-footer-cookies">Cookie Policy</a></li>
               <li><a href="#" className="hover:text-white hover:underline transition-colors" data-testid="link-footer-safety">Safety Tips</a></li>
             </ul>

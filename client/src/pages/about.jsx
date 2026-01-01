@@ -101,7 +101,7 @@ export default function About() {
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
                         <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                        All members must pay an annual fee of <strong>$150</strong>, which covers 12 months from the date of registration.
+                        <span>All members must pay an annual fee of <strong>$150</strong>, which covers 12 months from the date of registration.</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />

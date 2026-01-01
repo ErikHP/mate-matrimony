@@ -1,0 +1,170 @@
+1. COOKIE POLICY
+MATE – Muslim Matrimonial & Singles Platform
+Last Updated: 01/01/2026
+This Cookie Policy explains how MATE (“MATE,” “we,” “us,” or “our”) uses cookies and similar tracking technologies when you access or use our website, mobile applications, and related services (collectively, the “Services”).
+This Cookie Policy forms part of our Privacy Policy and Terms of Service.
+
+1.1 What Are Cookies?
+Cookies are small text files stored on your device when you visit a website or use an application. Cookies enable recognition of your device, enhance functionality, and improve user experience.
+Cookies may be:
+	•	Session Cookies (deleted when you close your browser); or
+	•	Persistent Cookies (stored for a defined duration).
+
+1.2 Categories of Cookies Used
+a. Strictly Necessary Cookies
+Required for core functionality, including:
+	•	User authentication and account security
+	•	Fraud detection and abuse prevention
+	•	Session management
+	•	Compliance with legal obligations
+Legal basis: Contractual necessity and legitimate interest.
+
+b. Analytics & Performance Cookies
+Used to understand platform usage and improve performance. Data is aggregated and anonymized where feasible.
+Legal basis: User consent (where required).
+
+c. Functional Cookies
+Enable enhanced personalization, including:
+	•	Language and region preferences
+	•	Profile settings
+	•	Saved matchmaking preferences
+Legal basis: User consent or legitimate interest.
+
+d. Advertising & Targeting Cookies
+May be used to deliver relevant advertisements and measure marketing effectiveness.
+Legal basis: Explicit consent (opt-in).
+
+1.3 Third-Party Cookies
+Cookies may be placed by vetted third parties such as analytics providers, security services, or payment processors. These parties process data under their own privacy policies.
+
+1.4 Similar Technologies
+We may also use:
+	•	Web beacons / pixels
+	•	SDKs (for mobile apps)
+	•	Device identifiers
+These technologies serve purposes similar to cookies.
+
+1.5 User Choices & Cookie Control
+You may manage cookies by:
+	•	Using our cookie preference manager (where available)
+	•	Adjusting browser or device settings
+	•	Withdrawing consent at any time
+Disabling cookies may limit platform functionality.
+
+1.6 Jurisdictional Compliance
+MATE complies with applicable data protection laws, including:
+	•	GDPR & UK GDPR
+	•	CCPA/CPRA
+	•	GCC data protection principles (where applicable)
+
+1.7 Updates
+We may update this Cookie Policy periodically. Continued use of the Services constitutes acceptance of updates.
+
+1.8 Contact
+Email: [privacy@mate.com] Website: [www.mate.com]
+
+2. COOKIE CONSENT BANNER LANGUAGE
+Short Banner (EU / UK / GCC)
+We use cookies to ensure essential functionality, analyze usage, and personalize your experience. You may accept all cookies, reject non-essential cookies, or manage your preferences. [Accept All] [Reject Non-Essential] [Manage Preferences]
+
+Preferences Modal Categories
+	•	Strictly Necessary (Always On)
+	•	Analytics & Performance
+	•	Functionality
+	•	Advertising & Marketing
+
+Consent Logging Clause
+Your consent choices are recorded and may be updated at any time through your account settings or browser controls.
+
+3. MOBILE APP TRACKING ADDENDUM
+Mobile-Specific Data Collection
+In addition to cookies, the MATE mobile app may collect:
+	•	Device identifiers (IDFA, GAID)
+	•	App interaction events
+	•	Crash logs and performance metrics
+	•	Push notification tokens
+
+Mobile Consent
+Where required by law, users will be prompted to:
+	•	Grant or deny tracking permissions
+	•	Opt in or out of targeted advertising
+	•	Control notifications via device settings
+
+Cross-Platform Data Use
+Data collected via mobile apps and websites may be combined to maintain account continuity and improve matchmaking services.
+
+4. PRIVACY POLICY
+MATE – Muslim Matrimonial & Singles Platform
+Last Updated: [Insert Date]
+
+4.1 Information We Collect
+a. Personal Information
+	•	Name, email address, phone number
+	•	Date of birth, gender (where voluntarily provided)
+	•	Profile information and preferences
+	•	Photos and user-submitted content
+
+b. Sensitive Information
+Users may voluntarily disclose information relating to:
+	•	Religious preferences
+	•	Marital intentions
+	•	Lifestyle choices
+Such data is processed solely to provide matchmaking services and is never sold.
+
+c. Technical & Usage Data
+	•	IP address
+	•	Device and browser information
+	•	Login timestamps
+	•	Interaction logs
+
+4.2 Purpose of Processing
+We process data to:
+	•	Provide matchmaking services
+	•	Verify identity and prevent fraud
+	•	Improve platform functionality
+	•	Communicate with users
+	•	Comply with legal obligations
+
+4.3 Legal Bases
+Processing is based on:
+	•	User consent
+	•	Contractual necessity
+	•	Legitimate interests
+	•	Legal compliance
+
+4.4 Data Sharing
+We may share data with:
+	•	Service providers (hosting, payments, analytics)
+	•	Legal authorities (when required by law)
+	•	Corporate affiliates (if applicable)
+We do not sell personal data.
+
+4.5 Data Retention
+Personal data is retained only as long as necessary for:
+	•	Account maintenance
+	•	Legal compliance
+	•	Dispute resolution
+
+4.6 User Rights
+Depending on jurisdiction, users may:
+	•	Access their data
+	•	Correct or delete information
+	•	Withdraw consent
+	•	Object to processing
+	•	Request data portability
+Requests may be submitted to: privacy@mate.com
+
+4.7 Security
+We implement reasonable administrative, technical, and organizational safeguards to protect user data.
+
+4.8 International Transfers
+Where data is transferred internationally, appropriate safeguards are applied, including standard contractual clauses.
+
+4.9 Children
+MATE is strictly for users 18 years or older.
+
+4.10 Changes
+We may update this Privacy Policy periodically. Continued use constitutes acceptance.
+
+5. OPTIONAL SHARIAH-CONSCIOUS POSITIONING (NON-LEGAL)
+MATE is designed to support respectful, values-based connections consistent with Islamic principles. While MATE does not provide religious rulings or matchmaking guarantees, we strive to maintain a platform that encourages modesty, sincerity, and lawful intentions.

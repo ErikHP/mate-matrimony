@@ -41,7 +41,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-6 text-white/90">
-              Connecting hearts. We are dedicated to helping singles find their perfect match in a safe and respectful environment.
+              Connecting hearts, guided by faith. We are dedicated to helping singles find their perfect match in a safe and respectful environment.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((link) => (

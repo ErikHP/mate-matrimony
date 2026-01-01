@@ -171,11 +171,11 @@ export default function About() {
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-2">
                         <Users className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                        Members must submit their bio and pictures within <strong>48 hours</strong> of joining.
+                        <span>Members must submit their bio and pictures within <strong>48 hours</strong> of joining.</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <Users className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                        Our data shows that profiles with pictures receive a <strong>67% higher response rate</strong>.
+                        <span>Our data shows that profiles with pictures receive a <strong>67% higher response rate</strong>.</span>
                       </li>
                     </ul>
                   </div>

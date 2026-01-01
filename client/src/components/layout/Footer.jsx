@@ -97,7 +97,7 @@ export function Footer() {
         </div>
         
         <div className="pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/80">
-          <p>&copy; 2025 MATE Matrimony. All rights reserved.</p>
+          <p>&copy; 2026 MATE Matrimony. All rights reserved.</p>
           <div className="flex gap-6">
             <span>Made with love</span>
           </div>

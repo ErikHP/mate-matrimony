@@ -58,12 +58,12 @@ export function Hero() {
           </motion.p>
           
           <motion.div variants={fadeIn} className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#cta" data-testid="link-hero-cta" className="w-full sm:w-auto">
+            <a href="/#cta" data-testid="link-hero-cta" className="w-full sm:w-auto">
               <Button size="lg" className="w-full bg-white text-primary hover:bg-white/90 h-14 px-8 text-lg font-bold rounded-full shadow-lg" data-testid="button-start-journey">
                 Start Your Journey
               </Button>
             </a>
-            <a href="#events" data-testid="link-hero-events" className="w-full sm:w-auto">
+            <a href="/#events" data-testid="link-hero-events" className="w-full sm:w-auto">
               <Button size="lg" variant="outline" className="w-full border-white text-white hover:bg-white/15 h-14 px-8 text-lg font-medium rounded-full backdrop-blur-sm" data-testid="button-upcoming-events">
                 Upcoming Events
               </Button>

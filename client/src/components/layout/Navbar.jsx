@@ -9,10 +9,10 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
   const menuItems = [
-    { label: "How it Works", href: "#how-it-works" },
-    { label: "Success Stories", href: "#success-stories" },
-    { label: "Events", href: "#events" },
-    { label: "Contact Us", href: "#cta" }
+    { label: "How it Works", href: "/#how-it-works" },
+    { label: "Success Stories", href: "/#success-stories" },
+    { label: "Events", href: "/#events" },
+    { label: "Contact Us", href: "/#cta" }
   ];
 
   // Handle scroll effect
@@ -67,7 +67,7 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} data-testid="button-logo">
+        <a href="/" data-testid="button-logo">
           <motion.div 
             className="flex items-center gap-2 flex-shrink-0 cursor-pointer"
             whileHover={{ scale: 1.05 }}
@@ -101,7 +101,7 @@ export function Navbar() {
         {/* Right Side - Get Started Button + Mobile Menu */}
         <div className="flex items-center gap-2 sm:gap-3">
           <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-            <a href="#cta">
+            <a href="/#cta">
               <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-3 sm:px-6 shadow-md shadow-primary/20 text-xs lg:text-sm h-10" data-testid="button-get-started-navbar">
                 Get Started
               </Button>

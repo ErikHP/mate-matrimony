@@ -395,15 +395,6 @@ export default function About() {
             <p className="text-muted-foreground mb-8">
               We will then begin the process of welcoming you to MATE!
             </p>
-
-            <a href="mailto:zafarlovesrecruiting@gmail.com?subject=MATE%20Membership%20Interest">
-              <Button
-                className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg"
-                data-testid="button-email-accept"
-              >
-                <Mail className="mr-2 w-5 h-5" /> Send Email to Join
-              </Button>
-            </a>
           </motion.div>
         </div>
       </section>
@@ -428,6 +419,17 @@ export default function About() {
                 <br />
                 Co-Founder, MATE
               </p>
+
+              <div className="mb-6">
+                <a href="mailto:zafarlovesrecruiting@gmail.com?subject=MATE%20Membership%20Interest">
+                  <Button
+                    className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg"
+                    data-testid="button-email-accept"
+                  >
+                    <Mail className="mr-2 w-5 h-5" /> Send Email to Join
+                  </Button>
+                </a>
+              </div>
 
               <div className="border-t border-border pt-6 mt-6">
                 <h3 className="text-xl font-bold text-primary mb-4">

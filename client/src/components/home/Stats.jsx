@@ -9,7 +9,7 @@ export function Stats() {
             { number: "25K+", label: "Active Members", icon: Users },
             { number: "15K+", label: "Success Stories", icon: Heart },
             { number: "100%", label: "Verified Profiles", icon: Shield },
-            { number: "50%", label: "Racially Diverse", icon: Globe },
+            { number: "50+", label: "Ethnicities", icon: Globe },
           ].map((stat, i) => (
             <div
               key={i}

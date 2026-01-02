@@ -45,7 +45,7 @@ export default function About() {
     <div className="min-h-screen bg-background font-sans text-foreground overflow-x-hidden">
       <Navbar />
 
-      <section className="pt-32 pb-8 bg-gradient-to-b from-primary/5 to-background">
+      <section className="pt-32 pb-2 bg-gradient-to-b from-primary/5 to-background">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

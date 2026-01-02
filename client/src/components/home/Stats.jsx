@@ -7,7 +7,7 @@ export function Stats() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
             { number: "25K+", label: "Active Members", icon: Users },
-            { number: "15K+", label: "Success Stories", icon: Heart },
+            { number: "1500+", label: "Success Stories", icon: Heart },
             { number: "100%", label: "Verified Profiles", icon: Shield },
             { number: "50+", label: "Ethnicities", icon: Globe },
           ].map((stat, i) => (

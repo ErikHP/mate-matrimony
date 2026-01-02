@@ -67,30 +67,22 @@ export function CTA() {
            
            <div className="flex flex-col sm:flex-row justify-center gap-8 relative z-10">
              {/* Play Store Button */}
-             <motion.div
-               className="flex flex-col items-center"
-               whileHover={{ scale: 1.05 }}
-               whileTap={{ scale: 0.95 }}
-             >
-               <div className="flex items-center justify-center w-32 h-32 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl mb-3 hover:bg-gradient-to-br hover:from-primary/20 hover:to-primary/10 transition-all cursor-pointer" data-testid="button-android-cta">
+             <div className="flex flex-col items-center">
+               <div className="flex items-center justify-center w-32 h-32 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl mb-3" data-testid="button-android-cta">
                  <img src={playStoreLogoImage} alt="Play Store" className="w-20 h-20 object-contain" />
                </div>
                <p className="text-sm font-semibold text-foreground">Play Store</p>
                <p className="text-xs text-muted-foreground">Coming Soon</p>
-             </motion.div>
+             </div>
 
              {/* App Store Button */}
-             <motion.div
-               className="flex flex-col items-center"
-               whileHover={{ scale: 1.05 }}
-               whileTap={{ scale: 0.95 }}
-             >
-               <div className="flex items-center justify-center w-32 h-32 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl mb-3 hover:bg-gradient-to-br hover:from-primary/20 hover:to-primary/10 transition-all cursor-pointer" data-testid="button-ios-cta">
+             <div className="flex flex-col items-center">
+               <div className="flex items-center justify-center w-32 h-32 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl mb-3" data-testid="button-ios-cta">
                  <img src={appStoreLogoImage} alt="App Store" className="w-20 h-20 object-contain rounded-lg" />
                </div>
                <p className="text-sm font-semibold text-foreground">App Store</p>
                <p className="text-xs text-muted-foreground">Coming Soon</p>
-             </motion.div>
+             </div>
            </div>
         </div>
       </div>

@@ -84,11 +84,11 @@ export function Footer() {
             <h4 className="text-white font-bold mb-6" data-testid="text-footer-app">Get the App</h4>
             <p className="text-sm mb-4 text-white/90" data-testid="text-footer-app-availability">Available on iOS and Android.<br /><span className="text-xs">Coming Soon</span></p>
             <div className="space-y-3">
-              <div className="h-10 w-32 bg-black/20 rounded-lg flex items-center justify-center border border-white/20 cursor-pointer hover:bg-black/30 transition-colors gap-2" data-testid="button-app-store">
+              <div className="h-10 w-32 bg-black/20 rounded-lg flex items-center justify-center border border-white/20 gap-2" data-testid="button-app-store">
                 <img src={appStoreLogoImage} alt="App Store" className="w-5 h-5 object-contain" />
                 <span className="text-xs font-bold text-white">App Store</span>
               </div>
-              <div className="h-10 w-32 bg-black/20 rounded-lg flex items-center justify-center border border-white/20 cursor-pointer hover:bg-black/30 transition-colors gap-2" data-testid="button-google-play">
+              <div className="h-10 w-32 bg-black/20 rounded-lg flex items-center justify-center border border-white/20 gap-2" data-testid="button-google-play">
                 <img src={playStoreLogoImage} alt="Play Store" className="w-5 h-5 object-contain" />
                 <span className="text-xs font-bold text-white">Play Store</span>
               </div>

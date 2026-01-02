@@ -6,6 +6,7 @@ import tiktokIcon from "@assets/tiktok_1766449687355.png";
 import instagramIcon from "@assets/instagram_1766449679563.png";
 import youtubeIcon from "@assets/youtube_1766449193328.png";
 import { motion } from "framer-motion";
+import { Mail } from "lucide-react";
 
 const socialLinks = [
   {
@@ -41,6 +42,17 @@ export function CTA() {
            
            <h2 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-6 relative z-10">Start Your Story Today</h2>
            <p className="text-lg text-muted-foreground mb-8 relative z-10">Join millions of singles finding their perfect match.</p>
+           
+           <div className="mb-8 relative z-10">
+             <a href="mailto:zafarlovesrecruiting@gmail.com?subject=MATE%20Membership%20Interest">
+               <Button
+                 className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg"
+                 data-testid="button-email-join-cta"
+               >
+                 <Mail className="mr-2 w-5 h-5" /> Send Email to Join
+               </Button>
+             </a>
+           </div>
            
            <div className="mb-8 p-6 bg-primary/5 rounded-2xl relative z-10">
              <p className="text-sm md:text-base text-foreground mb-4 font-semibold">Get in touch with us</p>

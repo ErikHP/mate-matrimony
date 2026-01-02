@@ -51,7 +51,7 @@ export default function Careers() {
                 className="border-primary text-primary hover:bg-primary/10 px-8 py-6 text-lg"
                 data-testid="button-upgrade-premium"
               >
-                <Sparkles className="mr-2 w-5 h-5" /> Upgrade to Premium
+                <Sparkles className="mr-2 w-5 h-5" /> Contact For Opportunities
               </Button>
             </div>
             <p className="text-sm text-muted-foreground mt-4">Unlock exclusive opportunities and mentorship</p>

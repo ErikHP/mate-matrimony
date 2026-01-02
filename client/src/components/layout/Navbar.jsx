@@ -102,7 +102,7 @@ export function Navbar() {
         <div className="flex items-center gap-2 sm:gap-3">
           <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
             <a href="/#cta">
-              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-3 sm:px-6 shadow-md shadow-primary/20 text-xs lg:text-sm h-10" data-testid="button-get-started-navbar">
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-3 sm:px-6 shadow-md shadow-primary/20 text-xs lg:text-sm h-10 cursor-pointer" data-testid="button-get-started-navbar">
                 Get Started
               </Button>
             </a>

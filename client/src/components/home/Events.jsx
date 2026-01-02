@@ -151,7 +151,7 @@ function EventsContent() {
                 </div>
 
                 {/* Button */}
-                <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-medium h-12 text-base" data-testid={`button-get-tickets-${event.location}`}>
+                <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-medium h-12 text-base cursor-pointer" data-testid={`button-get-tickets-${event.location}`}>
                   Get Tickets <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </div>

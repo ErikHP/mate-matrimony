@@ -54,8 +54,7 @@ export default function Careers() {
                 <Sparkles className="mr-2 w-5 h-5" /> Contact For Opportunities
               </Button>
             </div>
-            <p className="text-sm text-muted-foreground mt-4">Unlock exclusive opportunities and mentorship</p>
-          </motion.div>
+                      </motion.div>
         </div>
       </section>
 

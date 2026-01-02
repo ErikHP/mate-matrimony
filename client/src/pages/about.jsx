@@ -148,7 +148,7 @@ export default function About() {
                         <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                         <span>
                           All members must pay an annual fee of{" "}
-                          <strong>$150</strong>, which covers 12 months from the
+                          <strong>$250</strong>, which covers 12 months from the
                           date of registration.
                         </span>
                       </li>

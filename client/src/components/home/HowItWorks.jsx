@@ -17,7 +17,7 @@ export function HowItWorks() {
             {
               step: "01",
               title: "Create Profile",
-              desc: "Download the App, Sign up and set up your profile. Our detailed preferences help us understand exactly what you're looking for.",
+              desc: "Download the App, sign up and set up your profile. Our detailed preferences help us understand exactly what you're looking for.",
             },
             {
               step: "02",

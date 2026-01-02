@@ -45,7 +45,7 @@ export default function About() {
     <div className="min-h-screen bg-background font-sans text-foreground overflow-x-hidden">
       <Navbar />
 
-      <section className="pt-32 pb-16 bg-gradient-to-b from-primary/5 to-background">
+      <section className="pt-32 pb-8 bg-gradient-to-b from-primary/5 to-background">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -54,12 +54,12 @@ export default function About() {
             className="text-center max-w-4xl mx-auto"
           >
             <h1
-              className="text-4xl md:text-5xl font-heading font-bold text-primary mb-6"
+              className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4"
               data-testid="text-about-title"
             >
               Greetings from MATE!
             </h1>
-            <p className="text-2xl text-muted-foreground mb-4 italic">
+            <p className="text-2xl text-muted-foreground italic">
               As-salamu alaikum
             </p>
           </motion.div>

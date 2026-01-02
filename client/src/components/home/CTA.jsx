@@ -46,7 +46,7 @@ export function CTA() {
            <div className="mb-8 relative z-10">
              <a href="mailto:zafarlovesrecruiting@gmail.com?subject=MATE%20Membership%20Interest">
                <Button
-                 className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg"
+                 className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg cursor-pointer"
                  data-testid="button-email-join-cta"
                >
                  <Mail className="mr-2 w-5 h-5" /> Send Email to Join
